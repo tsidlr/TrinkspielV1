@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0E536D328EDD3F100B7A07E /* TrinkspielV1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E536D228EDD3F100B7A07E /* TrinkspielV1App.swift */; };
+		F0E536D528EDD3F100B7A07E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E536D428EDD3F100B7A07E /* ContentView.swift */; };
+		F0E536D728EDD3F200B7A07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E536D628EDD3F200B7A07E /* Assets.xcassets */; };
+		F0E536DA28EDD3F200B7A07E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E536D928EDD3F200B7A07E /* Preview Assets.xcassets */; };
+		F0E5370128EDE04400B7A07E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5370028EDE04400B7A07E /* Home.swift */; };
+		F0E5370328EDE12300B7A07E /* Trinkspiel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5370228EDE12300B7A07E /* Trinkspiel.swift */; };
+		F0E5370528EDE22A00B7A07E /* Spielfragen_daten.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5370428EDE22A00B7A07E /* Spielfragen_daten.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0E536E028EDD3F200B7A07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E536C728EDD3F100B7A07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E536CE28EDD3F100B7A07E;
+			remoteInfo = TrinkspielV1;
+		};
+		F0E536EA28EDD3F200B7A07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E536C728EDD3F100B7A07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E536CE28EDD3F100B7A07E;
+			remoteInfo = TrinkspielV1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0E536CF28EDD3F100B7A07E /* TrinkspielV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrinkspielV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E536D228EDD3F100B7A07E /* TrinkspielV1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinkspielV1App.swift; sourceTree = "<group>"; };
+		F0E536D428EDD3F100B7A07E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0E536D628EDD3F200B7A07E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0E536D928EDD3F200B7A07E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0E536DF28EDD3F200B7A07E /* TrinkspielV1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinkspielV1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E536E928EDD3F200B7A07E /* TrinkspielV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinkspielV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E5370028EDE04400B7A07E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F0E5370228EDE12300B7A07E /* Trinkspiel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trinkspiel.swift; sourceTree = "<group>"; };
+		F0E5370428EDE22A00B7A07E /* Spielfragen_daten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spielfragen_daten.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0E536CC28EDD3F100B7A07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E536DC28EDD3F200B7A07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E536E628EDD3F200B7A07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0E536C628EDD3F100B7A07E = {
+			isa = PBXGroup;
+			children = (
+				F0E536D128EDD3F100B7A07E /* TrinkspielV1 */,
+				F0E536D028EDD3F100B7A07E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0E536D028EDD3F100B7A07E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0E536CF28EDD3F100B7A07E /* TrinkspielV1.app */,
+				F0E536DF28EDD3F200B7A07E /* TrinkspielV1Tests.xctest */,
+				F0E536E928EDD3F200B7A07E /* TrinkspielV1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0E536D128EDD3F100B7A07E /* TrinkspielV1 */ = {
+			isa = PBXGroup;
+			children = (
+				F0E536D228EDD3F100B7A07E /* TrinkspielV1App.swift */,
+				F0E536D428EDD3F100B7A07E /* ContentView.swift */,
+				F0E5370028EDE04400B7A07E /* Home.swift */,
+				F0E5370228EDE12300B7A07E /* Trinkspiel.swift */,
+				F0E5370428EDE22A00B7A07E /* Spielfragen_daten.swift */,
+				F0E536D628EDD3F200B7A07E /* Assets.xcassets */,
+				F0E536D828EDD3F200B7A07E /* Preview Content */,
+			);
+			path = TrinkspielV1;
+			sourceTree = "<group>";
+		};
+		F0E536D828EDD3F200B7A07E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0E536D928EDD3F200B7A07E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0E536CE28EDD3F100B7A07E /* TrinkspielV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E536F328EDD3F200B7A07E /* Build configuration list for PBXNativeTarget "TrinkspielV1" */;
+			buildPhases = (
+				F0E536CB28EDD3F100B7A07E /* Sources */,
+				F0E536CC28EDD3F100B7A07E /* Frameworks */,
+				F0E536CD28EDD3F100B7A07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrinkspielV1;
+			productName = TrinkspielV1;
+			productReference = F0E536CF28EDD3F100B7A07E /* TrinkspielV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0E536DE28EDD3F200B7A07E /* TrinkspielV1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E536F628EDD3F200B7A07E /* Build configuration list for PBXNativeTarget "TrinkspielV1Tests" */;
+			buildPhases = (
+				F0E536DB28EDD3F200B7A07E /* Sources */,
+				F0E536DC28EDD3F200B7A07E /* Frameworks */,
+				F0E536DD28EDD3F200B7A07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0E536E128EDD3F200B7A07E /* PBXTargetDependency */,
+			);
+			name = TrinkspielV1Tests;
+			productName = TrinkspielV1Tests;
+			productReference = F0E536DF28EDD3F200B7A07E /* TrinkspielV1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0E536E828EDD3F200B7A07E /* TrinkspielV1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E536F928EDD3F200B7A07E /* Build configuration list for PBXNativeTarget "TrinkspielV1UITests" */;
+			buildPhases = (
+				F0E536E528EDD3F200B7A07E /* Sources */,
+				F0E536E628EDD3F200B7A07E /* Frameworks */,
+				F0E536E728EDD3F200B7A07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0E536EB28EDD3F200B7A07E /* PBXTargetDependency */,
+			);
+			name = TrinkspielV1UITests;
+			productName = TrinkspielV1UITests;
+			productReference = F0E536E928EDD3F200B7A07E /* TrinkspielV1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0E536C728EDD3F100B7A07E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F0E536CE28EDD3F100B7A07E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F0E536DE28EDD3F200B7A07E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F0E536CE28EDD3F100B7A07E;
+					};
+					F0E536E828EDD3F200B7A07E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F0E536CE28EDD3F100B7A07E;
+					};
+				};
+			};
+			buildConfigurationList = F0E536CA28EDD3F100B7A07E /* Build configuration list for PBXProject "TrinkspielV1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0E536C628EDD3F100B7A07E;
+			productRefGroup = F0E536D028EDD3F100B7A07E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0E536CE28EDD3F100B7A07E /* TrinkspielV1 */,
+				F0E536DE28EDD3F200B7A07E /* TrinkspielV1Tests */,
+				F0E536E828EDD3F200B7A07E /* TrinkspielV1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0E536CD28EDD3F100B7A07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E536DA28EDD3F200B7A07E /* Preview Assets.xcassets in Resources */,
+				F0E536D728EDD3F200B7A07E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E536DD28EDD3F200B7A07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E536E728EDD3F200B7A07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0E536CB28EDD3F100B7A07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E5370328EDE12300B7A07E /* Trinkspiel.swift in Sources */,
+				F0E5370528EDE22A00B7A07E /* Spielfragen_daten.swift in Sources */,
+				F0E536D528EDD3F100B7A07E /* ContentView.swift in Sources */,
+				F0E5370128EDE04400B7A07E /* Home.swift in Sources */,
+				F0E536D328EDD3F100B7A07E /* TrinkspielV1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E536DB28EDD3F200B7A07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E536E528EDD3F200B7A07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0E536E128EDD3F200B7A07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0E536CE28EDD3F100B7A07E /* TrinkspielV1 */;
+			targetProxy = F0E536E028EDD3F200B7A07E /* PBXContainerItemProxy */;
+		};
+		F0E536EB28EDD3F200B7A07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0E536CE28EDD3F100B7A07E /* TrinkspielV1 */;
+			targetProxy = F0E536EA28EDD3F200B7A07E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0E536F128EDD3F200B7A07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0E536F228EDD3F200B7A07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0E536F428EDD3F200B7A07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrinkspielV1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TS.TrinkspielV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0E536F528EDD3F200B7A07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrinkspielV1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TS.TrinkspielV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0E536F728EDD3F200B7A07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TS.TrinkspielV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrinkspielV1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrinkspielV1";
+			};
+			name = Debug;
+		};
+		F0E536F828EDD3F200B7A07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TS.TrinkspielV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrinkspielV1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrinkspielV1";
+			};
+			name = Release;
+		};
+		F0E536FA28EDD3F200B7A07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TS.TrinkspielV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrinkspielV1;
+			};
+			name = Debug;
+		};
+		F0E536FB28EDD3F200B7A07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TS.TrinkspielV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrinkspielV1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0E536CA28EDD3F100B7A07E /* Build configuration list for PBXProject "TrinkspielV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E536F128EDD3F200B7A07E /* Debug */,
+				F0E536F228EDD3F200B7A07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0E536F328EDD3F200B7A07E /* Build configuration list for PBXNativeTarget "TrinkspielV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E536F428EDD3F200B7A07E /* Debug */,
+				F0E536F528EDD3F200B7A07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0E536F628EDD3F200B7A07E /* Build configuration list for PBXNativeTarget "TrinkspielV1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E536F728EDD3F200B7A07E /* Debug */,
+				F0E536F828EDD3F200B7A07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0E536F928EDD3F200B7A07E /* Build configuration list for PBXNativeTarget "TrinkspielV1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E536FA28EDD3F200B7A07E /* Debug */,
+				F0E536FB28EDD3F200B7A07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0E536C728EDD3F100B7A07E /* Project object */;
+}
